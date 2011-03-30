@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DefinitivoTestsTests' target in the 'DefinitivoTestsTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

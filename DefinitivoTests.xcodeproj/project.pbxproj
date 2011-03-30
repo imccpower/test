@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E80B1A31343E6AD00F1338E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E80B1A21343E6AD00F1338E /* UIKit.framework */; };
+		6E80B1A51343E6AD00F1338E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E80B1A41343E6AD00F1338E /* Foundation.framework */; };
+		6E80B1A71343E6AD00F1338E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E80B1A61343E6AD00F1338E /* CoreGraphics.framework */; };
+		6E80B1AD1343E6AE00F1338E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E80B1AB1343E6AD00F1338E /* InfoPlist.strings */; };
+		6E80B1B01343E6AE00F1338E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80B1AF1343E6AE00F1338E /* main.m */; };
+		6E80B1B31343E6AE00F1338E /* DefinitivoTestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80B1B21343E6AE00F1338E /* DefinitivoTestsAppDelegate.m */; };
+		6E80B1B61343E6AE00F1338E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E80B1B41343E6AE00F1338E /* MainWindow.xib */; };
+		6E80B1B91343E6AE00F1338E /* DefinitivoTestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80B1B81343E6AE00F1338E /* DefinitivoTestsViewController.m */; };
+		6E80B1BC1343E6AE00F1338E /* DefinitivoTestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E80B1BA1343E6AE00F1338E /* DefinitivoTestsViewController.xib */; };
+		6E80B1C31343E6AE00F1338E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E80B1A21343E6AD00F1338E /* UIKit.framework */; };
+		6E80B1C41343E6AE00F1338E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E80B1A41343E6AD00F1338E /* Foundation.framework */; };
+		6E80B1C51343E6AE00F1338E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E80B1A61343E6AD00F1338E /* CoreGraphics.framework */; };
+		6E80B1CD1343E6AE00F1338E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E80B1CB1343E6AE00F1338E /* InfoPlist.strings */; };
+		6E80B1D01343E6AE00F1338E /* DefinitivoTestsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 6E80B1CF1343E6AE00F1338E /* DefinitivoTestsTests.h */; };
+		6E80B1D21343E6AE00F1338E /* DefinitivoTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E80B1D11343E6AE00F1338E /* DefinitivoTestsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E80B1C61343E6AE00F1338E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E80B1951343E6AD00F1338E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E80B19D1343E6AD00F1338E;
+			remoteInfo = DefinitivoTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E80B19E1343E6AD00F1338E /* DefinitivoTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DefinitivoTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E80B1A21343E6AD00F1338E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E80B1A41343E6AD00F1338E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E80B1A61343E6AD00F1338E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E80B1AA1343E6AD00F1338E /* DefinitivoTests-Info.plist */ = {isa = PBXFileReference; path = "DefinitivoTests-Info.plist"; sourceTree = "<group>"; };
+		6E80B1AC1343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E80B1AE1343E6AE00F1338E /* DefinitivoTests-Prefix.pch */ = {isa = PBXFileReference; path = "DefinitivoTests-Prefix.pch"; sourceTree = "<group>"; };
+		6E80B1AF1343E6AE00F1338E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E80B1B11343E6AE00F1338E /* DefinitivoTestsAppDelegate.h */ = {isa = PBXFileReference; path = DefinitivoTestsAppDelegate.h; sourceTree = "<group>"; };
+		6E80B1B21343E6AE00F1338E /* DefinitivoTestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefinitivoTestsAppDelegate.m; sourceTree = "<group>"; };
+		6E80B1B51343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6E80B1B71343E6AE00F1338E /* DefinitivoTestsViewController.h */ = {isa = PBXFileReference; path = DefinitivoTestsViewController.h; sourceTree = "<group>"; };
+		6E80B1B81343E6AE00F1338E /* DefinitivoTestsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefinitivoTestsViewController.m; sourceTree = "<group>"; };
+		6E80B1BB1343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DefinitivoTestsViewController.xib; sourceTree = "<group>"; };
+		6E80B1C21343E6AE00F1338E /* DefinitivoTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefinitivoTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E80B1CA1343E6AE00F1338E /* DefinitivoTestsTests-Info.plist */ = {isa = PBXFileReference; path = "DefinitivoTestsTests-Info.plist"; sourceTree = "<group>"; };
+		6E80B1CC1343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E80B1CE1343E6AE00F1338E /* DefinitivoTestsTests-Prefix.pch */ = {isa = PBXFileReference; path = "DefinitivoTestsTests-Prefix.pch"; sourceTree = "<group>"; };
+		6E80B1CF1343E6AE00F1338E /* DefinitivoTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefinitivoTestsTests.h; sourceTree = "<group>"; };
+		6E80B1D11343E6AE00F1338E /* DefinitivoTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefinitivoTestsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E80B19B1343E6AD00F1338E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E80B1A31343E6AD00F1338E /* UIKit.framework in Frameworks */,
+				6E80B1A51343E6AD00F1338E /* Foundation.framework in Frameworks */,
+				6E80B1A71343E6AD00F1338E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E80B1BE1343E6AE00F1338E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E80B1C31343E6AE00F1338E /* UIKit.framework in Frameworks */,
+				6E80B1C41343E6AE00F1338E /* Foundation.framework in Frameworks */,
+				6E80B1C51343E6AE00F1338E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E80B1931343E6AD00F1338E = {
+			isa = PBXGroup;
+			children = (
+				6E80B1A81343E6AD00F1338E /* DefinitivoTests */,
+				6E80B1C81343E6AE00F1338E /* DefinitivoTestsTests */,
+				6E80B1A11343E6AD00F1338E /* Frameworks */,
+				6E80B19F1343E6AD00F1338E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E80B19F1343E6AD00F1338E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E80B19E1343E6AD00F1338E /* DefinitivoTests.app */,
+				6E80B1C21343E6AE00F1338E /* DefinitivoTestsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E80B1A11343E6AD00F1338E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E80B1A21343E6AD00F1338E /* UIKit.framework */,
+				6E80B1A41343E6AD00F1338E /* Foundation.framework */,
+				6E80B1A61343E6AD00F1338E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E80B1A81343E6AD00F1338E /* DefinitivoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E80B1B11343E6AE00F1338E /* DefinitivoTestsAppDelegate.h */,
+				6E80B1B21343E6AE00F1338E /* DefinitivoTestsAppDelegate.m */,
+				6E80B1B41343E6AE00F1338E /* MainWindow.xib */,
+				6E80B1B71343E6AE00F1338E /* DefinitivoTestsViewController.h */,
+				6E80B1B81343E6AE00F1338E /* DefinitivoTestsViewController.m */,
+				6E80B1BA1343E6AE00F1338E /* DefinitivoTestsViewController.xib */,
+				6E80B1A91343E6AD00F1338E /* Supporting Files */,
+			);
+			path = DefinitivoTests;
+			sourceTree = "<group>";
+		};
+		6E80B1A91343E6AD00F1338E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E80B1AA1343E6AD00F1338E /* DefinitivoTests-Info.plist */,
+				6E80B1AB1343E6AD00F1338E /* InfoPlist.strings */,
+				6E80B1AE1343E6AE00F1338E /* DefinitivoTests-Prefix.pch */,
+				6E80B1AF1343E6AE00F1338E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E80B1C81343E6AE00F1338E /* DefinitivoTestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E80B1CF1343E6AE00F1338E /* DefinitivoTestsTests.h */,
+				6E80B1D11343E6AE00F1338E /* DefinitivoTestsTests.m */,
+				6E80B1C91343E6AE00F1338E /* Supporting Files */,
+			);
+			path = DefinitivoTestsTests;
+			sourceTree = "<group>";
+		};
+		6E80B1C91343E6AE00F1338E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E80B1CA1343E6AE00F1338E /* DefinitivoTestsTests-Info.plist */,
+				6E80B1CB1343E6AE00F1338E /* InfoPlist.strings */,
+				6E80B1CE1343E6AE00F1338E /* DefinitivoTestsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E80B19D1343E6AD00F1338E /* DefinitivoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E80B1D51343E6AE00F1338E /* Build configuration list for PBXNativeTarget "DefinitivoTests" */;
+			buildPhases = (
+				6E80B19A1343E6AD00F1338E /* Sources */,
+				6E80B19B1343E6AD00F1338E /* Frameworks */,
+				6E80B19C1343E6AD00F1338E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DefinitivoTests;
+			productName = DefinitivoTests;
+			productReference = 6E80B19E1343E6AD00F1338E /* DefinitivoTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E80B1C11343E6AE00F1338E /* DefinitivoTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E80B1D81343E6AE00F1338E /* Build configuration list for PBXNativeTarget "DefinitivoTestsTests" */;
+			buildPhases = (
+				6E80B1BD1343E6AE00F1338E /* Sources */,
+				6E80B1BE1343E6AE00F1338E /* Frameworks */,
+				6E80B1BF1343E6AE00F1338E /* Resources */,
+				6E80B1C01343E6AE00F1338E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E80B1C71343E6AE00F1338E /* PBXTargetDependency */,
+			);
+			name = DefinitivoTestsTests;
+			productName = DefinitivoTestsTests;
+			productReference = 6E80B1C21343E6AE00F1338E /* DefinitivoTestsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E80B1951343E6AD00F1338E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6E80B1981343E6AD00F1338E /* Build configuration list for PBXProject "DefinitivoTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E80B1931343E6AD00F1338E;
+			productRefGroup = 6E80B19F1343E6AD00F1338E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E80B19D1343E6AD00F1338E /* DefinitivoTests */,
+				6E80B1C11343E6AE00F1338E /* DefinitivoTestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E80B19C1343E6AD00F1338E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E80B1AD1343E6AE00F1338E /* InfoPlist.strings in Resources */,
+				6E80B1B61343E6AE00F1338E /* MainWindow.xib in Resources */,
+				6E80B1BC1343E6AE00F1338E /* DefinitivoTestsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E80B1BF1343E6AE00F1338E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E80B1CD1343E6AE00F1338E /* InfoPlist.strings in Resources */,
+				6E80B1D01343E6AE00F1338E /* DefinitivoTestsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E80B1C01343E6AE00F1338E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E80B19A1343E6AD00F1338E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E80B1B01343E6AE00F1338E /* main.m in Sources */,
+				6E80B1B31343E6AE00F1338E /* DefinitivoTestsAppDelegate.m in Sources */,
+				6E80B1B91343E6AE00F1338E /* DefinitivoTestsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E80B1BD1343E6AE00F1338E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E80B1D21343E6AE00F1338E /* DefinitivoTestsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E80B1C71343E6AE00F1338E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E80B19D1343E6AD00F1338E /* DefinitivoTests */;
+			targetProxy = 6E80B1C61343E6AE00F1338E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E80B1AB1343E6AD00F1338E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E80B1AC1343E6AE00F1338E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E80B1B41343E6AE00F1338E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E80B1B51343E6AE00F1338E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6E80B1BA1343E6AE00F1338E /* DefinitivoTestsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E80B1BB1343E6AE00F1338E /* en */,
+			);
+			name = DefinitivoTestsViewController.xib;
+			sourceTree = "<group>";
+		};
+		6E80B1CB1343E6AE00F1338E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E80B1CC1343E6AE00F1338E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E80B1D31343E6AE00F1338E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E80B1D41343E6AE00F1338E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6E80B1D61343E6AE00F1338E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DefinitivoTests/DefinitivoTests-Prefix.pch";
+				INFOPLIST_FILE = "DefinitivoTests/DefinitivoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E80B1D71343E6AE00F1338E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DefinitivoTests/DefinitivoTests-Prefix.pch";
+				INFOPLIST_FILE = "DefinitivoTests/DefinitivoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E80B1D91343E6AE00F1338E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DefinitivoTests.app/DefinitivoTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DefinitivoTestsTests/DefinitivoTestsTests-Prefix.pch";
+				INFOPLIST_FILE = "DefinitivoTestsTests/DefinitivoTestsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6E80B1DA1343E6AE00F1338E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DefinitivoTests.app/DefinitivoTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DefinitivoTestsTests/DefinitivoTestsTests-Prefix.pch";
+				INFOPLIST_FILE = "DefinitivoTestsTests/DefinitivoTestsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E80B1981343E6AD00F1338E /* Build configuration list for PBXProject "DefinitivoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E80B1D31343E6AE00F1338E /* Debug */,
+				6E80B1D41343E6AE00F1338E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E80B1D51343E6AE00F1338E /* Build configuration list for PBXNativeTarget "DefinitivoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E80B1D61343E6AE00F1338E /* Debug */,
+				6E80B1D71343E6AE00F1338E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E80B1D81343E6AE00F1338E /* Build configuration list for PBXNativeTarget "DefinitivoTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E80B1D91343E6AE00F1338E /* Debug */,
+				6E80B1DA1343E6AE00F1338E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E80B1951343E6AD00F1338E /* Project object */;
+}
