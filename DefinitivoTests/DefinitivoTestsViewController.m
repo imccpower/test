@@ -14,6 +14,7 @@
 {
     [super dealloc];
     NSLog(@"Prueba con GITHUB");
+    NSLog(@"Prueba 2");
 }
 
 - (void)didReceiveMemoryWarning
