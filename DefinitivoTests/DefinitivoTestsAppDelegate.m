@@ -23,6 +23,7 @@
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    NSLog(@"Primer cambio");
     return YES;
 }
 

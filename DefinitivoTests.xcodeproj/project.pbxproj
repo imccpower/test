@@ -39,20 +39,20 @@
 		6E80B1A21343E6AD00F1338E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6E80B1A41343E6AD00F1338E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E80B1A61343E6AD00F1338E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6E80B1AA1343E6AD00F1338E /* DefinitivoTests-Info.plist */ = {isa = PBXFileReference; path = "DefinitivoTests-Info.plist"; sourceTree = "<group>"; };
+		6E80B1AA1343E6AD00F1338E /* DefinitivoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DefinitivoTests-Info.plist"; sourceTree = "<group>"; };
 		6E80B1AC1343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6E80B1AE1343E6AE00F1338E /* DefinitivoTests-Prefix.pch */ = {isa = PBXFileReference; path = "DefinitivoTests-Prefix.pch"; sourceTree = "<group>"; };
+		6E80B1AE1343E6AE00F1338E /* DefinitivoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DefinitivoTests-Prefix.pch"; sourceTree = "<group>"; };
 		6E80B1AF1343E6AE00F1338E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E80B1B11343E6AE00F1338E /* DefinitivoTestsAppDelegate.h */ = {isa = PBXFileReference; path = DefinitivoTestsAppDelegate.h; sourceTree = "<group>"; };
+		6E80B1B11343E6AE00F1338E /* DefinitivoTestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefinitivoTestsAppDelegate.h; sourceTree = "<group>"; };
 		6E80B1B21343E6AE00F1338E /* DefinitivoTestsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefinitivoTestsAppDelegate.m; sourceTree = "<group>"; };
 		6E80B1B51343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		6E80B1B71343E6AE00F1338E /* DefinitivoTestsViewController.h */ = {isa = PBXFileReference; path = DefinitivoTestsViewController.h; sourceTree = "<group>"; };
+		6E80B1B71343E6AE00F1338E /* DefinitivoTestsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefinitivoTestsViewController.h; sourceTree = "<group>"; };
 		6E80B1B81343E6AE00F1338E /* DefinitivoTestsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefinitivoTestsViewController.m; sourceTree = "<group>"; };
 		6E80B1BB1343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DefinitivoTestsViewController.xib; sourceTree = "<group>"; };
 		6E80B1C21343E6AE00F1338E /* DefinitivoTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefinitivoTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E80B1CA1343E6AE00F1338E /* DefinitivoTestsTests-Info.plist */ = {isa = PBXFileReference; path = "DefinitivoTestsTests-Info.plist"; sourceTree = "<group>"; };
+		6E80B1CA1343E6AE00F1338E /* DefinitivoTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DefinitivoTestsTests-Info.plist"; sourceTree = "<group>"; };
 		6E80B1CC1343E6AE00F1338E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6E80B1CE1343E6AE00F1338E /* DefinitivoTestsTests-Prefix.pch */ = {isa = PBXFileReference; path = "DefinitivoTestsTests-Prefix.pch"; sourceTree = "<group>"; };
+		6E80B1CE1343E6AE00F1338E /* DefinitivoTestsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DefinitivoTestsTests-Prefix.pch"; sourceTree = "<group>"; };
 		6E80B1CF1343E6AE00F1338E /* DefinitivoTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefinitivoTestsTests.h; sourceTree = "<group>"; };
 		6E80B1D11343E6AE00F1338E /* DefinitivoTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefinitivoTestsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
